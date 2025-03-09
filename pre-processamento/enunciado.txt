@@ -1,0 +1,37 @@
+ Aula 1 - PRÁTICA 
+
+1) Carregue o dataset Iris. 
+o dataset iris é um dataset que ontém informações sobre 150 flores de 3 espécies diferentes. O dataset possui as seguintes características:
+1. sepal_length: Comprimento da sépala em cm.
+2. sepal_width: Largura da sépala em cm.
+3. petal_length: Comprimento da pétala em cm.
+4. petal_width: Largura da pétala em cm.
+5. species: Espécie da flor (setosa, versicolor ou virginica).
+Foi importado do sklear.datasets
+
+2) Dê uma fuçada nos dados.
+
+3) Calcule a média e desvio padrão de cada atributo.
+
+4) Calcule a média e desvio padrão de cada atributo para cada classe.
+
+5) Plote os resultados em um **Box Plot**. Tente fazer um BoxPlot usando também a biblioteca Seaborn, que adiciona algumas funcionalidades ao MatPlotLib e integra muito bem com Pandas.
+
+6) Normalize os dados (MinMaxScaler).
+
+7) Plote novamente. Mas antes, imagine: o que deve acontecer?
+
+8) Repita o 7 com standardização dos dados.
+
+9) Plote um histograma que mostre bem a diferença das 3 classes em 1 atributo.
+
+10) Plote um scatter plot que mostre bem a diferença das 3 classes em 1 atributo.
+
+11) Olhe novamente os exemplos marcados Aula-1B. Explique os argumentos usados nas funções **plt.hist** e **plt.scatter**.
+
+12) Vamos tentar reduzir o número de atributos? Crie um novo atributo
+“sepal_area” que é o produto da largura e comprimento da sépala.
+
+13) Faça o mesmo com a pétala. (Guarde esses dados resultantes porque vamos usar eles mais pra frente)
+
+14) Rode novamente a visualização completa dos atributos usando SubPlots (como no item 1-C, por exemplo) usando os dados com dimensionalidade reduzida do item 12. (Lembre que antes tínhamos 16 SubPlots, e agora?)
