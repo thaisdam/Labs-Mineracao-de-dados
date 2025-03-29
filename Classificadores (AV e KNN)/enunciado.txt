@@ -1,0 +1,21 @@
+Aula 2 - PRÁTICA - Árvore de Decisão e KNN.
+
+1) Carregue o dataset Iris.
+
+2) Aplique os classificadores Árvore de Decisão e KNN. Compare os resultados.
+
+3) Repita o passo 2, mas agora antes normalize os dados.
+
+4) Repita o passo 2, mas agora antes padronize (standardize) os dados.
+
+5) Plote um gráfico com os resultados do KNN para diferentes valores de k.
+
+6) Plote um gráfico com os resultados da Árvore de Decisão para diversos valores de max_leaf_nodes, e mostre algumas árvores de decisão diferentes geradas.
+
+7) Carregue o dataset de Qualidade de Vinhos (arquivo .CSV aqui: http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv.
+
+8) Repita os passos 2 a 6 usando a base de vinhos.
+
+9) Repita os passos 2 a 6 usando a base Credit Card Balance Data dos links abaixo para criar um classificador de pessoas que ganham mais de 50k ou menos de 50k. Atenção: Você deve escolher uma estratégia para lidar com atributos não-numéricos. Justifique sua escolha!
+
+Dica: você deve criar esse target a partir da coluna "Income". Lembre de não usar a coluna "Income" no seu cálculo. Descrição do dataset: https://rdrr.io/cran/ISLR/man/Credit.html
