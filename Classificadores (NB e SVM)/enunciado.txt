@@ -1,0 +1,17 @@
+Aula 3 - PRÁTICA - Naive Bayes e SVM.
+
+1) Carregue o dataset Iris.
+
+2) Aplique o classificador SVM.
+
+3) Faça uma tabela com os resultados de acurácia do SVM para diferentes kernels. Para os kernels polinomiais e RBF, varie os parâmetros “degree” e “gamma”, respectivamente. 
+- Consulte a documentação: https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+
+4) Carregue o dataset Brasileirão Serie A
+https://www.kaggle.com/datasets/adaoduque/campeonato-brasileiro-de-futebol?resource=download
+
+5) Aplique o classificador Naive Bayes. Escolha algumas colunas (pelo menos Mandante e Visitante são essenciais) como entradas para predizer o resultado da partida.
+
+6) Use os métodos predict(X) e predict_proba(X) para testar os resultados - Consulte a documentação: https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html
+
+7) Repita o passo 5, mas agora tente apenas prever entre vitória ou não-vitória (isto é, considerando empate ou derrota como a mesma classe).
