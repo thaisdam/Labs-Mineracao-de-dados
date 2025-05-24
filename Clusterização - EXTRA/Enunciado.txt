@@ -1,0 +1,16 @@
+## Aula Clusterização - PRÁTICA 
+
+1) Carregue o dataset de sementes de trigo do site OpenML (formato ARFF). 
+Normalize os dados: https://www.openml.org/d/1499
+1) Aplique agrupamento k-Means (usando sklearn.cluster.KMeans) supondo 3 grupos 
+e pontos centrais iniciais aleatórios. 
+ 
+2) Discuta a escolha dos centroides.
+
+ 3) Faça o mesmo agrupamento, agora supondo 4 grupos. 
+
+4) Compare a cardinalidade, magnitude, coesão e separação de agrupamentos em 3 
+e 4 grupos e determine qual número de grupos é melhor. 
+
+5) Realize agrupamento hierárquico (usando sklearn.cluster.AgglomerativeClustering 
+ou scipy.cluster.hierarchy.linkage) e plote o dendrograma dele.
