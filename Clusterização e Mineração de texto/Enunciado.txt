@@ -1,0 +1,15 @@
+## Aula Clusterização e Mineração de Texto - PRÁTICA
+
+1) O dataset será o poema épico Os Lusíadas:
+https://github.com/rlafuente/textan/blob/master/sources/lusiadas.txt
+
+2) O poema tem 156 estrofes. Gere embeddings para cada uma delas.
+
+3) Aplique o algoritmo de agrupamento k-Means (usando sklearn.cluster.KMeans) ou DBSCAN para agrupar as estrofes. Justifique a escolha.
+
+4) Discuta os resultados (quais as estrofes mais parecidas? quantos grupos parece haver? há outliers? etc)
+
+5) Analise a cardinalidade, magnitude, coesão e separação dos agrupamentos.
+
+6) Bônus: Realize agrupamento hierárquico (usando sklearn.cluster.AgglomerativeClustering
+ou scipy.cluster.hierarchy.linkage) e plote o dendrograma dele.
