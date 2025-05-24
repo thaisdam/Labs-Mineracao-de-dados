@@ -1,0 +1,11 @@
+## Aula Redes Neurais (PRÁTICA)
+
+1) Carregue o dataset MNIST.
+
+2) Aplique o classificador MLPClassifier.
+
+3) Plote a matriz de confusão.
+
+4) Gere gráficos comparando a taxa de acerto para diferentes números de neurônios na camada escondida, diferentes funções de ativação, e diferentes taxas de aprendizado.
+
+5) Bônus: compare os resultados com os mesmos resultados para uma Rede Neural Convolutiva (CNN).
