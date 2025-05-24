@@ -19,5 +19,5 @@ Este repositório contém os labs de Mineração de Dados, onde são abordados d
 6. **Lab 05 - Clusterização e Mineração de Texto**:
    - Esse laboratório aplica mineração de texto em estrofes do poema *Os Lusíadas*. São gerados embeddings para cada estrofe, e em seguida aplicados algoritmos de clusterização (k-Means ou DBSCAN), com análise da formação de grupos semânticos e identificação de possíveis outliers.
      
-7. ** Lab Extra - Redes Neurais**:
+7. **Lab Extra - Redes Neurais**:
    - Este laboratório aplica clusterização com k-Means e agrupamento hierárquico, utilizando dados de sementes de trigo. Após normalizar o dataset, são analisadas diferentes quantidades de clusters e seus impactos em métricas como coesão e separação.
